@@ -1,0 +1,22 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.web-gl {
+  position: absolute;
+  left: 0;
+  top: 0;
+  outline: none;
+}
